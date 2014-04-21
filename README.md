@@ -11,4 +11,4 @@ Provide here YOUR_JWPLAYER_KEY orherwise it will throw
 Error setting up player:
 Invalid licence key
 
-http://account.longtailvideo.com/#/home from where you can get your free self hosted key (YOUR_JWPLAYER_KEY) in signing up from Get Your License Key portion
+https://account.longtailvideo.com/#/account from where you can get your free Self-Hosted Player License Key (YOUR_JWPLAYER_KEY) in signing up from Get Your License Key portion
