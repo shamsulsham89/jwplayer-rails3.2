@@ -12,3 +12,5 @@ Error setting up player:
 Invalid licence key
 
 https://account.longtailvideo.com/#/account from where you can get your free Self-Hosted Player License Key (YOUR_JWPLAYER_KEY) in signing up from Get Your License Key portion
+
+Test it first on Chrome Version 30
