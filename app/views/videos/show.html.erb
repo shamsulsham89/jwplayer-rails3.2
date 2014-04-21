@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @video.name %>
+</p>
+
+<p>
+  <b>Video:</b>
+  <%= @video.video %>
+</p>
+
+
+<script type="text/javascript">jwplayer.key="YOUR_JWPLAYER_KEY";</script>
+<div id="video">Loading the player ...</div>
+<script type="text/javascript">
+jwplayer("video").setup({
+    flashplayer: "<%=asset_path('jwplayer.flash.swf')%>",
+    file: "<%= @video.video %>",
+    height: 360,
+    width: 640,
+    analytics: {
+        enabled: false,
+       cookies: false
+   }
+});
+</script>
+
+<%= link_to 'Edit', edit_video_path(@video) %> |
+<%= link_to 'Back', videos_path %>
