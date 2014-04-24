@@ -1,5 +1,21 @@
 <h1>Listing videos</h1>
 
+
+<script type="text/javascript">jwplayer.key="YOUR_JWPLAYER_KEY";</script>
+<div id="video">Loading the player ...</div>
+<script type="text/javascript">
+jwplayer("video").setup({
+    flashplayer: "<%=asset_path('jwplayer.flash.swf')%>",
+    file: "http://content.jwplatform.com/videos/HkauGhRi-640.mp4",
+    height: 360,
+    width: 640,
+    analytics: {
+        enabled: false,
+       cookies: false
+   }
+});
+</script>
+
 <table>
   <tr>
     <th>Name</th>

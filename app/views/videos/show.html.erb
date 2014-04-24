@@ -16,7 +16,7 @@
 <script type="text/javascript">
 jwplayer("video").setup({
     flashplayer: "<%=asset_path('jwplayer.flash.swf')%>",
-    file: "http://content.jwplatform.com/videos/HkauGhRi-640.mp4",
+    file: "<%= @video.video %>",
     height: 360,
     width: 640,
     analytics: {
