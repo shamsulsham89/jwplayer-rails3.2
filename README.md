@@ -19,3 +19,5 @@ Steps to run:--
 1> bundle install
 2> rails s
 
+To run on production environment:--
+  rails s -e production
